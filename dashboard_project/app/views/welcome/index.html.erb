@@ -1,0 +1,12 @@
+<h3 align="center">תפוסה לפי מקום</h3>
+
+<table align="center" width="500" border="1">
+  <tr>
+    <% @counts.each do |c,v| %>
+        <td style="text-align: center">
+          <h2><%= c %></h2>
+          <h3><%= v %></h3>
+        </td>
+    <% end %>
+  </tr>
+</table>
